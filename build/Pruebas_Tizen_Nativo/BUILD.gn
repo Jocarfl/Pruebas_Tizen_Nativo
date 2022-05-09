@@ -1,0 +1,17 @@
+import("$tizen_core/build/dotnet/project.gni")
+
+dotnet_project("Pruebas_Tizen_Nativo") {
+  
+   
+  csprojpath = "Pruebas_Tizen_Nativo.csproj"
+  is_dep = false
+  files = [
+      "Pruebas_Tizen_Nativo.csproj",
+      "Pruebas_Tizen_Nativo.cs",
+      "App.cs",
+      "tizen-manifest.xml",
+      "shared/res/Pruebas_Tizen_Nativo.png",
+  ]
+  deps = [
+  ]
+}

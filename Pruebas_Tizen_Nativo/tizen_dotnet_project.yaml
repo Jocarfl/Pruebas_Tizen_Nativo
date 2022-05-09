@@ -1,0 +1,10 @@
+# csproj file path
+csproj_file: Pruebas_Tizen_Nativo.csproj
+
+# files monitored for dirty/modified status
+files:
+  - Pruebas_Tizen_Nativo.csproj
+  - Pruebas_Tizen_Nativo.cs
+  - App.cs
+  - tizen-manifest.xml
+  - shared/res/Pruebas_Tizen_Nativo.png
